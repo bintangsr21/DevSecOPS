@@ -1,171 +1,39 @@
 {
-  "version": "2.6.2",
-  "release_version": "",
-  "released_at": "",
-  "summary": {
-    "title": "Sistem TikTok Shop",
-    "owner": "Muhammad Bintang Siregar",
-    "description": "Aplikasi e-commerce TikTok Shop untuk UMKM dan pembeli.",
-    "id": 0
-  },
-  "detail": {
-    "contributors": [
-      {
-        "name": "Muhammad Zein"
-      },
-      {
-        "name": "Muhammad Bintang Siregar"
-      },
-      {
-        "name": "Muhammad Fathir Lubis"
-      }
-    ],
-    "diagrams": [
-      {
-        "id": 0,
-        "title": "DFD TikTok Shop",
-        "diagramType": "DFD",
-        "thumbnail": "./public/content/images/thumbnail.dfd.jpg",
-        "version": "2.6.2",
-        "cells": [
-          {
-            "type": "tm.Actor",
-            "size": { "width": 100, "height": 80 },
-            "position": { "x": 100, "y": 80 },
-            "angle": 0,
-            "id": "entity-pembeli",
-            "attrs": {
-              "text": { "text": "Pembeli" }
-            }
-          },
-          {
-            "type": "tm.Actor",
-            "size": { "width": 100, "height": 80 },
-            "position": { "x": 600, "y": 80 },
-            "angle": 0,
-            "id": "entity-seller",
-            "attrs": {
-              "text": { "text": "Seller / Merchant" }
-            }
-          },
-          {
-            "type": "tm.Process",
-            "size": { "width": 140, "height": 80 },
-            "position": { "x": 350, "y": 200 },
-            "angle": 0,
-            "id": "process-login",
-            "attrs": {
-              "text": { "text": "1. Autentikasi Akun" }
-            }
-          },
-          {
-            "type": "tm.Store",
-            "size": { "width": 160, "height": 80 },
-            "position": { "x": 340, "y": 350 },
-            "angle": 0,
-            "id": "store-db",
-            "attrs": {
-              "text": { "text": "Database TikTok Shop" }
-            }
-          },
-          {
-            "type": "tm.Process",
-            "size": { "width": 140, "height": 80 },
-            "position": { "x": 120, "y": 500 },
-            "angle": 0,
-            "id": "process-checkout",
-            "attrs": {
-              "text": { "text": "2. Proses Checkout & Live" }
-            }
-          },
-          {
-            "type": "tm.Process",
-            "size": { "width": 140, "height": 80 },
-            "position": { "x": 560, "y": 500 },
-            "angle": 0,
-            "id": "process-seller",
-            "attrs": {
-              "text": { "text": "3. Kelola Produk & Laporan" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "entity-pembeli" },
-            "target": { "id": "process-login" },
-            "id": "flow-1",
-            "attrs": {
-              "text": { "text": "1. Kirim Kredensial Pembeli" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "entity-seller" },
-            "target": { "id": "process-login" },
-            "id": "flow-2",
-            "attrs": {
-              "text": { "text": "2. Kirim Kredensial Seller" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "process-login" },
-            "target": { "id": "store-db" },
-            "id": "flow-3",
-            "attrs": {
-              "text": { "text": "3. Validasi Akun Pengguna" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "entity-pembeli" },
-            "target": { "id": "process-checkout" },
-            "id": "flow-4",
-            "attrs": {
-              "text": { "text": "4. Kirim Data Pesanan & Keranjang" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "process-checkout" },
-            "target": { "id": "store-db" },
-            "id": "flow-5",
-            "attrs": {
-              "text": { "text": "5. Simpan Transaksi & Update Stok" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "entity-seller" },
-            "target": { "id": "process-seller" },
-            "id": "flow-6",
-            "attrs": {
-              "text": { "text": "6. Permintaan Cek Stok/Laporan" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "process-seller" },
-            "target": { "id": "store-db" },
-            "id": "flow-7",
-            "attrs": {
-              "text": { "text": "7. Ambil Data Produk & Penjualan" }
-            }
-          },
-          {
-            "type": "tm.Flow",
-            "source": { "id": "process-seller" },
-            "target": { "id": "entity-seller" },
-            "id": "flow-8",
-            "attrs": {
-              "text": { "text": "8. Tampilkan Laporan Penghasilan" }
-            }
-          }
-        ],
-        "description": "Data Flow Diagram sistem TikTok Shop"
-      }
-    ],
-    "diagramTop": 1,
-    "reviewer": "April Rustianto, S.Komp., M.T.",
-    "threatTop": 0
-  }
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Sistem model e-commers",
+    "owner": "Mentalist",
+    "description": "aplikasi ecommers ini adalah aplikasi untuk UMKM berdagang tanpa perlu khawatir dengan biaya sewa toko mahal",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Muhammad Zein"
+      },
+      {
+        "name": "Muhammad Bintang Siregar"
+      },
+      {
+        "name": "Muhammad Fathir Lubis"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Sistem E-Commers ",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram aplikasi pemesanan toko online "
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "April Rustianto, S.Komp., M.T.",
+    "threatTop": 0
+  }
 }
