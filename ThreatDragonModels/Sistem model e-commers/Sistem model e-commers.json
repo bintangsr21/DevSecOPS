@@ -1,0 +1,39 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Sistem model e-commers",
+    "owner": "Mentalist",
+    "description": "aplikasi ecommers ini adalah aplikasi untuk UMKM berdagang tanpa perlu khawatir dengan biaya sewa toko mahal",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Muhammad Zein"
+      },
+      {
+        "name": "Muhammad Bintang Siregar"
+      },
+      {
+        "name": "Muhammad Fathir Lubis"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Sistem E-Commers ",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram aplikasi pemesanan toko online "
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "April Rustianto, S.Komp., M.T.",
+    "threatTop": 0
+  }
+}
