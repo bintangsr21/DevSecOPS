@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-09-23",
+  "summary": {
+    "title": "Sistem Presensi Mahasiswa",
+    "owner": "Muhammad Zein",
+    "description": "aplikasi presensi ini digunakan oleh mahasiswa untuk absensi",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Sistem Presensi Mahasiswa",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram untuk absensi mahasiswa"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Mas Mentalist",
+    "threatTop": 0
+  }
+}
